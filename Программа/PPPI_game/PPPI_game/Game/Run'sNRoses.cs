@@ -26,5 +26,11 @@ namespace PPPI_game.Game
         {
 
         }
+
+        // Прицеливание
+        public void Aim()
+        {
+
+        }
     }
 }
