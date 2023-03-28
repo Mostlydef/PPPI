@@ -20,7 +20,7 @@ namespace PPPI_game.Engine.Sound
         // Проиграть музыку
         public void PlayMusic()
         {
-            _groups = Groups.Aerosmith;
+            _groups = Groups.Pink_Floyd;
         }
     }
 }
