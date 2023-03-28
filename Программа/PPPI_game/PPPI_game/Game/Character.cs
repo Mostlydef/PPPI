@@ -18,5 +18,11 @@ namespace PPPI_game.Game
             _STP = STP;
             _movementSpeed = movementSpeed;
         }
+
+        // Бег персонажа
+        public void Run()
+        {
+
+        }
     }
 }
