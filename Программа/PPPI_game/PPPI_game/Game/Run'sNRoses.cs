@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace PPPI_game.Game
 {
+    // Режим стрельбы.
+    struct ShootingMode
+    {
+        
+    }
+
     internal abstract class Run_sNRoses
     {
         private int _damage;
