@@ -14,6 +14,12 @@ namespace PPPI_game.Engine.Physics
 
     }
 
+    // Структура для моделирования столкновения объектов
+    struct CollisionPoints
+    {
+
+    }
+
     internal class PhysicsWorld
     {
         private Vector<Object> _objects;
@@ -23,5 +29,7 @@ namespace PPPI_game.Engine.Physics
         {
 
         }
+
+
     }
 }
