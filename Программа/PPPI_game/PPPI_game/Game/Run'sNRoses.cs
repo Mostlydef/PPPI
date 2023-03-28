@@ -21,14 +21,20 @@ namespace PPPI_game.Game
             _magazine = magazine;
         }
 
-        // Метод стрельбы
+        // Метод стрельбы.
         public void Shoot()
         {
 
         }
 
-        // Прицеливание
+        // Прицеливание.
         public void Aim()
+        {
+
+        }
+
+        // Перезарядка.
+        public void Reload()
         {
 
         }
