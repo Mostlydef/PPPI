@@ -30,6 +30,11 @@ namespace PPPI_game.Engine.Physics
 
         }
 
+        // Решение коллизий.
+        void ResolveCollisions(float dt)
+        {
+
+        }
 
     }
 }
