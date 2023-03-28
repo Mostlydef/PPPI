@@ -36,5 +36,10 @@ namespace PPPI_game.Engine.Physics
 
         }
 
+        // Удаление объекта.
+        void RemoveObject(Object object1) 
+        { 
+
+        }
     }
 }
