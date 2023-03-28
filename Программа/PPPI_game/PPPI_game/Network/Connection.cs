@@ -9,23 +9,28 @@ namespace PPPI_game.Network
     internal class Connection
     {
 
-        // Метод проверки обновлений
+        // Метод проверки обновлений.
         public void CheckingUpdates()
         {
 
         }
 
-        // Передача данных на сервер
+        // Передача данных на сервер.
         public void Transfer()
         {
 
         }
 
-        // Получение данных с сервера
+        // Получение данных с сервера.
         public void Acquisition()
         {
 
         }
 
+        // Сверка клиента и сервера
+        public void Reconciliation()
+        {
+            
+        }
     }
 }
