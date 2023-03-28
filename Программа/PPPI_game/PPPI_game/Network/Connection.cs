@@ -32,5 +32,11 @@ namespace PPPI_game.Network
         {
             
         }
+
+        // Проверка сединения
+        public void СheckСonnection()
+        {
+
+        }
     }
 }
