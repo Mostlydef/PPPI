@@ -27,5 +27,12 @@ namespace PPPI_game.Engine.Graphics
         {
 
         }
+
+        // Распределение, (иначе - распределение текстур, Texture Mapping)
+        // - процесс назначения объекту атрибутов придающих ему реалистичность.
+        public void Mapping()
+        {
+
+        }
     }
 }
