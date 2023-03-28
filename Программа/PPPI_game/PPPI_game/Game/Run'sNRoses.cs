@@ -20,5 +20,11 @@ namespace PPPI_game.Game
             _distance = distance;
             _magazine = magazine;
         }
+
+        // Метод стрельбы
+        public void Shoot()
+        {
+
+        }
     }
 }
