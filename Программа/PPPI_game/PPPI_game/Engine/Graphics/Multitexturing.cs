@@ -21,5 +21,11 @@ namespace PPPI_game.Engine.Graphics
         {
 
         }
+
+        // Отсечение тех многоугольников, которые не попадают в поле зрения пользователя.
+        public void Clipping()
+        {
+
+        }
     }
 }
