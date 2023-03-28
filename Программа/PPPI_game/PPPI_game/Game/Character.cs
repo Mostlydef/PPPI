@@ -24,5 +24,11 @@ namespace PPPI_game.Game
         {
 
         }
+
+        // Прижок
+        public void Jump()
+        {
+
+        }
     }
 }
