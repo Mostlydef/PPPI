@@ -34,5 +34,11 @@ namespace PPPI_game.Engine.Graphics
         {
 
         }
+
+        // Механизм получения изображения в HiColor-режимах.
+        public void Dithering()
+        {
+
+        }
     }
 }
