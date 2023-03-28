@@ -21,5 +21,11 @@ namespace PPPI_game.Network
 
         }
 
+        // Получение данных с сервера
+        public void Acquisition()
+        {
+
+        }
+
     }
 }
