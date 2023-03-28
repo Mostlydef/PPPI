@@ -15,5 +15,11 @@ namespace PPPI_game.Network
 
         }
 
+        // Передача данных на сервер
+        public void Transfer()
+        {
+
+        }
+
     }
 }
