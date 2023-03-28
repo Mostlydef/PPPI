@@ -36,5 +36,11 @@ namespace PPPI_game.Game
         {
 
         }
+
+        // Приседание.
+        public void Squat()
+        {
+
+        }
     }
 }
