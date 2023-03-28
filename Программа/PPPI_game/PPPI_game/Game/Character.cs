@@ -19,14 +19,20 @@ namespace PPPI_game.Game
             _movementSpeed = movementSpeed;
         }
 
-        // Бег персонажа
+        // Бег персонажа.
         public void Run()
         {
 
         }
 
-        // Прижок
+        // Прижок.
         public void Jump()
+        {
+
+        }
+
+        // Ускоренный бег.
+        public void Accelerate()
         {
 
         }
