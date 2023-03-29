@@ -5,7 +5,7 @@ class Armor(Item):
     """
     Реализация брони.
     """
-    def __init__(self, title, sprite, defence):
+    def __init__(self, name, sprite, defence):
         """
         :param name: Название брони.
         :param sprite: Спрайт брони.

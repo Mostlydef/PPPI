@@ -29,8 +29,6 @@ class Shovel(Tool):
     def break_block(self, block: Block):
         pass
 
-    def sprinkle_block(self, block: Block):
-        pass
 
 class Multitool(Tool):
 
@@ -38,7 +36,4 @@ class Multitool(Tool):
         super(Multitool, self).__init__(efficiency, name, sprite)
 
     def break_block(self, block: Block):
-        pass
-
-    def fix_block(self, block: Block):
         pass

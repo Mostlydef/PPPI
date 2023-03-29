@@ -21,6 +21,3 @@ class Game:
 
     def play_music(self):
         pass
-
-    def change_music(self):
-	pass
