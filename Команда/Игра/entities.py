@@ -1,7 +1,7 @@
 class Entity:
     """Реализация существ"""
     def __init__(self, health_point, damage, sprite, defence,
-                 drop, iframe=0.1):
+                 drop, iframe=0.5):
         """
         :param health_point: Количество очков здоровья
         :param damage: Урон
