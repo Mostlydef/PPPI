@@ -29,6 +29,8 @@ class Shovel(Tool):
     def break_block(self, block: Block):
         pass
 
+    def sprinkle_block(self, block: Block):
+        pass
 
 class Multitool(Tool):
 
