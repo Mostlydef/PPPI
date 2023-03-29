@@ -37,3 +37,6 @@ class Multitool(Tool):
 
     def break_block(self, block: Block):
         pass
+
+    def fix_block(self, block: Block):
+        pass
