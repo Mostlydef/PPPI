@@ -17,7 +17,7 @@ class Entity:
         self.drop = drop
         self.iframe = iframe
 
-    def die(self):
+    def death(self):
         """
         Метод, отвечающий за смерть сущностей
         """
