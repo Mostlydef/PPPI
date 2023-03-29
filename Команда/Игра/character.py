@@ -12,6 +12,7 @@ class Character:
         """
         :param health_point: Количество очков здоровья
         :param mana_point: Количество очков маны
+	:param stamina_point: Количество очков маны
         :param inventory: Инвентарь
         :param armor: Броня
         :param accessories: Аксессуары
