@@ -28,6 +28,9 @@ class MeleeWeapon(Weapon):
     def defense(self, entity):
         pass
 
+    def cast(self, entity):
+        pass
+
 class Projectile:
     def __init__(self, velocity, direction, is_shine, gravity):
         self.velocity = velocity
