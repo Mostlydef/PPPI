@@ -56,6 +56,12 @@ class Character:
         """
         pass
 
+    def interaction(self):
+        """
+        Метод взаимодействия с окружающим миром
+        """
+        pass
+
     @classmethod
     def load(cls, data):
         """
