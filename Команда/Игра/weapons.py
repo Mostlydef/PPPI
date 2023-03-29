@@ -25,6 +25,8 @@ class MeleeWeapon(Weapon):
     def attack(self, entity):
         pass
 
+    def defense(self, entity):
+        pass
 
 class Projectile:
     def __init__(self, velocity, direction, is_shine, gravity):
