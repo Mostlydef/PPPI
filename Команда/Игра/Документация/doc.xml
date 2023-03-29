@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+  <info>
+    <title>Документация игры</title>
+  </info>
+
+  <chapter>
+    <title>Класс Accessory</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Accessory представляет реализацию механики аксессуаров</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>name</literal> Название аксессуара</para></listitem>
+        <listitem><para><literal>sprite</literal> Спрайт аксессуара</para></listitem>
+        <listitem><para><literal>buff</literal> Эффект, который даёт аксессуар</para></listitem>
+      </itemizedlist>
+    </section>
+  </chapter>
+
+    <chapter>
+    <title>Класс Achievement</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Achievement реализует механику достижений</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>name</literal> Название достижения</para></listitem>
+        <listitem><para><literal>condition</literal> Условие достижения</para></listitem>
+        <listitem><para><literal>description</literal> Описание достижения</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>check_condition()</literal></title>
+        <para>Метод для проверки условия выполнения достижения</para>
+      </section>
+      <section>
+        <title><literal>achieve()</literal></title>
+        <para>Метод выполнения достижения</para>
+      </section>
+    </section>
+  </chapter>
+
+    <chapter>
+    <title>Класс Armor</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Achievement реализует механику брони</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>name</literal> Название брони</para></listitem>
+        <listitem><para><literal>sprite</literal> Спрайт брони</para></listitem>
+        <listitem><para><literal>defence</literal> Защита брони</para></listitem>
+      </itemizedlist>
+    </section>
+  </chapter>
+
+    <chapter>
+    <title>Класс Block</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Block реализует блок</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>durability</literal> Прочность блока</para></listitem>
+        <listitem><para><literal>sprite</literal> Спрайт блока</para></listitem>
+        <listitem><para><literal>effective_tool</literal> Эффективный инструмент</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>draw()</literal></title>
+        <para>Метод отрисоки блока</para>
+      </section>
+      <section>
+        <title><literal>destroy()</literal></title>
+        <para>Метод уничтожения блока</para>
+      </section>
+    </section>
+  </chapter>
+
+
+      <chapter>
+    <title>Класс Character</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Character реализует игрового персонажа</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>health_point</literal> Количество очков здоровья</para></listitem>
+        <listitem><para><literal>mana_point</literal> Количество очков маны</para></listitem>
+        <listitem><para><literal>inventory</literal> Инвентарь</para></listitem>
+        <listitem><para><literal>armor</literal> Броня</para></listitem>
+        <listitem><para><literal>accessories</literal> Аксессуары</para></listitem>
+        <listitem><para><literal>iframe</literal> Длительность времени неуязвимости</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>left_click()</literal></title>
+        <para>Действие при нажатии ЛКМ</para>
+      </section>
+      <section>
+        <title><literal>right_click()</literal></title>
+        <para>Действие при нажатии ПКМ</para>
+      </section>
+      <section>
+        <title><literal>move()</literal></title>
+        <para>Метод передвижения</para>
+      </section>
+      <section>
+        <title><literal>interact_with_inventory()</literal></title>
+        <para>Метод взаимодействия с инвентарём</para>
+      </section>
+      <section>
+        <title><literal>craft()</literal></title>
+        <para>Метод создания предметов</para>
+      </section>
+      <section>
+        <title><literal>load(data)</literal></title>
+        <para>Метод для загрузки персонажа. data – информация о персонаже</para>
+      </section>
+    </section>
+  </chapter>
+
+        <chapter>
+    <title>Класс Entity</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Entity реализует существ</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>health_point</literal> Количество очков здоровья</para></listitem>
+        <listitem><para><literal>damage</literal> Урон</para></listitem>
+        <listitem><para><literal>sprite</literal> Спрайт</para></listitem>
+        <listitem><para><literal>defence</literal> Защита</para></listitem>
+        <listitem><para><literal>drop</literal> Предметы, которые выпадают в случае смерти</para></listitem>
+        <listitem><para><literal>iframe</literal> Длительность неуязвимости</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>die()</literal></title>
+        <para>Метод, отвечающий за смерть сущностей</para>
+      </section>
+      <section>
+        <title><literal>spawn()</literal></title>
+        <para>Метод, отвечающий за появление новых сущностей</para>
+      </section>
+      <section>
+        <title><literal>draw()</literal></title>
+        <para>Метод отрисовки</para>
+      </section>
+    </section>
+  </chapter>
+  <chapter>
+    <title>Класс Mob(Entity)</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Mob реализует враждебных существ</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>attack_player()</literal></title>
+        <para>Метод атаки игрока</para>
+      </section>
+    </section>
+  </chapter>
+
+    <chapter>
+    <title>Класс NPC(Entity)</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс NPC реализует NPC</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>speak()</literal></title>
+        <para>Метод реализует разговор с NPC</para>
+      </section>
+    </section>
+  </chapter>
+          <chapter>
+    <title>Класс Item</title>
+    <section>
+      <title>Описание</title>
+      <para>Класс Item реализует предмет</para>
+    </section>
+
+    <section>
+      <title>Поля</title>
+      <itemizedlist>
+        <listitem><para><literal>name</literal> Название предмета</para></listitem>
+        <listitem><para><literal>sprite</literal> Спрайт</para></listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>draw()</literal></title>
+        <para>Метод отрисовки</para>
+      </section>
+    </section>
+  </chapter>
+</doc>
