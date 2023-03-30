@@ -6,7 +6,7 @@ using System.Runtime.Intrinsics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PPPI_game.Engine.Physics
+namespace PPPI_game
 {
     // Информация об объекте.
     struct Object

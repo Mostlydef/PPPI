@@ -4,20 +4,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Перечисление популярных групп для проигрывания музыки
+/// </summary>
 public enum Groups
 {
+    /// <summary>
+    /// Элемент перечисления, который указывает на группу AC/DC
+    /// </summary>
     AC_DC,
+
+    /// <summary>
+    /// Элемент перечисления, который указывает на группу PinkFloyd
+    /// </summary>
     Pink_Floyd,
+
+    /// <summary>
+    /// Элемент перечисления, который указывает на группу Aerosmith
+    /// </summary>
     Aerosmith
 }
 
-namespace PPPI_game.Engine.Sound
+namespace PPPI_game
 {
 
-    internal class MainSound
+    /// <summary>
+    /// Воспроизведение музыки
+    /// </summary>
+    public class MainSound
     {
-        Groups _groups; 
-        // Проиграть музыку
+        /// <summary>
+        /// Переменная для выбора популярных групп
+        /// </summary>
+        private Groups _groups; 
+
+        /// <summary>
+        /// Проиграть музыку
+        /// </summary>
         public void PlayMusic()
         {
             _groups = Groups.Pink_Floyd;

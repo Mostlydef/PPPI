@@ -1,0 +1,16 @@
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\bin\Debug\net6.0\PPPI_game.exe
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\bin\Debug\net6.0\PPPI_game.deps.json
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\bin\Debug\net6.0\PPPI_game.runtimeconfig.json
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\bin\Debug\net6.0\PPPI_game.dll
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\bin\Debug\net6.0\PPPI_game.pdb
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\bin\Debug\net6.0\Документация.xml
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.csproj.AssemblyReference.cache
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.AssemblyInfoInputs.cache
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.AssemblyInfo.cs
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.dll
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\refint\PPPI_game.dll
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.pdb
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\PPPI_game.genruntimeconfig.cache
+C:\Users\Vlad\Desktop\ALLabs\ПППИ\PPPI\Программа\PPPI_game\PPPI_game\obj\Debug\net6.0\ref\PPPI_game.dll

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PPPI_game</name>
+    </assembly>
+    <members>
+        <member name="T:PPPI_game.Multitexturing">
+            <summary>
+            Класс отвечающий за рендеринг с использованием нескольких текстур за минимальное число проходов
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Multitexturing.Transforms">
+            <summary>
+            Операции изменения позиции, размера, или ориентации объекта в пространстве.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Multitexturing.Deforms">
+            <summary>
+            Операции подобные превращениям, однако, более сложные,
+            так как их исполнение приводят к перемене внешнего вида объекта.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Multitexturing.Clipping">
+            <summary>
+            Отсечение тех многоугольников, которые не попадают в поле зрения пользователя.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Multitexturing.Mapping">
+            <summary>
+            Распределение, (иначе - распределение текстур, Texture Mapping)
+             - процесс назначения объекту атрибутов придающих ему реалистичность.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Multitexturing.Dithering">
+            <summary>
+            Механизм получения изображения в HiColor-режимах.
+            </summary>
+        </member>
+        <member name="T:PPPI_game.MainSound">
+            <summary>
+            Воспроизведение музыки
+            </summary>
+        </member>
+        <member name="F:PPPI_game.MainSound._groups">
+            <summary>
+            Переменная для выбора популярных групп
+            </summary>
+        </member>
+        <member name="M:PPPI_game.MainSound.PlayMusic">
+            <summary>
+            Проиграть музыку
+            </summary>
+        </member>
+        <member name="T:PPPI_game.Character">
+            <summary>
+            Класс абстрактной сущности "персонаж"
+            </summary>
+        </member>
+        <member name="F:PPPI_game.Character._HP">
+            <summary>
+            Очки здоровья персонажа
+            </summary>
+        </member>
+        <member name="F:PPPI_game.Character._STP">
+            <summary>
+            Очки действий персонажа
+            </summary>
+        </member>
+        <member name="F:PPPI_game.Character._movementSpeed">
+            <summary>
+            Скорость передвижения персонажа
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Character.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Конструктор класса Character
+            </summary>
+            <param name="HP">Очки здоровья персонажа</param>
+            <param name="STP">Очки действий персонажа</param>
+            <param name="movementSpeed">Скорость передвижения персонажа</param>
+        </member>
+        <member name="M:PPPI_game.Character.Run">
+            <summary>
+            Бег персонажа.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Character.Jump">
+            <summary>
+            Прижок.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Character.Accelerate">
+            <summary>
+            Ускоренный бег.
+            </summary>
+        </member>
+        <member name="M:PPPI_game.Character.Squat">
+            <summary>
+            Приседание.
+            </summary>
+        </member>
+        <member name="T:Groups">
+            <summary>
+            Перечисление популярных групп для проигрывания музыки
+            </summary>
+        </member>
+        <member name="F:Groups.AC_DC">
+            <summary>
+            Элемент перечисления, который указывает на группу AC/DC
+            </summary>
+        </member>
+        <member name="F:Groups.Pink_Floyd">
+            <summary>
+            Элемент перечисления, который указывает на группу PinkFloyd
+            </summary>
+        </member>
+        <member name="F:Groups.Aerosmith">
+            <summary>
+            Элемент перечисления, который указывает на группу Aerosmith
+            </summary>
+        </member>
+    </members>
+</doc>
